@@ -92,6 +92,8 @@ Philipp Messerschmidt - cs16-1/WS2018
     }
 ```
 
+----
+
 ### Challenges
 
 @title[Pointer to Pointers]
