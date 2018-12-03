@@ -39,13 +39,14 @@ int main(void) {
     int rv;
 
     memset(&hints, 0, sizeof hints);
-    hints.ai_family = AF_UNSPEC;
+    hints.ai_family = AF_UNSPEC; // be protocol agnostic
     hints.ai_socktype = SOCK_STREAM; // make sure to use TCP
     hints.ai_flags = AI_PASSIVE; // use my IP
 
     // First: load up all the address structs with getaddrinfo()
     // improved way of configuring the server
-    // where serv_info is basically a linked list that contains all of the address information. The &serv_info is a node
+    // where serv_info is basically a linked list that contains all of the address information.
+    // The &serv_info is a node which contains a field pointing to the next node
     if ((rv = getaddrinfo(NULL, PORT, &hints, &serv_info)) != 0) {
         fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(rv));
         return 1;

@@ -28,10 +28,10 @@ Philipp Messerschmidt - cs16-1/WS2018
 ### OSI Model
 
 <br><br>
-- Application Layer
+- Application Layer (e.g. HTTP)
 - Presentation Layer
 - Session Layer
-- **Transport Layer**
+- **Transport Layer** (e.g. TCP)
 - Network Layer
 - Data Link
 - Physical Layer
@@ -69,7 +69,7 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ---
 
-### Challenges
+## Challenges
 
 - starting from basically zero ... tooling, and external libraries 
 - OCD: declaring pointers; asterisk on the left or right?
@@ -80,7 +80,10 @@ Philipp Messerschmidt - cs16-1/WS2018
 +++?code=template/src/c/main-improved.c&lang=c
 @title[Challenges]
 
-@[46-59]
+
+@[19-26, 33-34](newer functions allow for dynamically enabling IP6 support)
+
+@[33-34, 46-59](data type linked list uses pointer-to-pointers)
 
 
 

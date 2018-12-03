@@ -1,4 +1,4 @@
-# Code
+## Code
 
 @fa[arrow-down text-black]
 
@@ -27,7 +27,9 @@
 
 @[42-44](wait for incoming connections and handle them)
 
-@[51, 54-59](original socket for listening is only for accepting connections, not for exchanging data)
+@[51-22](implementing HTTP - needs 3 Headers; *HTTP/1.1 200 OK*, *Content-Type: text/plain*, *Content-Length: 12*)
+
+@[54-59](original socket for listening is only for accepting connections, not for exchanging data)
 
 @[51, 60-71]
 
