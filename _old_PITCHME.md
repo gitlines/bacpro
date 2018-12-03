@@ -47,10 +47,10 @@
 
 ### Code 
 
-<!-- - **server_fd** is a file descriptor
+- **server_fd** is a file descriptor
 - **domain:** AF_INET (IP), AF_INET6 (IPv6), AF_UNIX
 - **type:** SOCK_STREAM (=TCP), SOCK_DGRAM (=UDP) 
-- **protocol:** not 0 only when IP address family has variations -->
+- **protocol:** not 0 only when IP address family has variations
 
 ```C
     // listen on server_fd, new connection on new_fd
@@ -72,8 +72,8 @@
 
 ### Code 
 
-<!-- - sockaddr: enables OS read bytes that identify the address family 
-- corresponds to socket that is set up -->
+- sockaddr: enables OS read bytes that identify the address family 
+- corresponds to socket that is set up
 
 ```C
     // configure socket addr struct
@@ -91,13 +91,13 @@
 
 ### Code 
 
-<!-- - bind():
+- bind():
 - associate socket with a port on local machine
 - needed in order to listen() for incoming connections on a specific port
-- kernel uses port number to match incoming packet to process's socket descriptor -->
+- kernel uses port number to match incoming packet to process's socket descriptor
 
-<!-- - listen() / accept()
-- wait for incoming connections and handle them -->
+- listen() / accept()
+- wait for incoming connections and handle them
 
 ```C
     // associate socket with a specific port on the machine, which is necessary in order to listen
