@@ -78,16 +78,18 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 @fa[arrow-down text-black]
 
-+++?code=template/src/c/main.c&lang=c
-
 @title[Challenges]
 
++++?code=template/src/c/main-improved.c&lang=c
+
+
+
 
 @[1-15]
 
 @[1-15]
 
-@title[Newer API]
+
 
 @title[Pointer to Pointers]
 
