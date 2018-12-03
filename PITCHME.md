@@ -82,8 +82,6 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ### Challenges
 
-@title[Newer API]
-
 ```C
     // First: load up all the address structs with getaddrinfo()
     // improved way of configuring the server
@@ -93,6 +91,8 @@ Philipp Messerschmidt - cs16-1/WS2018
         return 1;
     }
 ```
+
+@title[Newer API]
 
 ----
 
