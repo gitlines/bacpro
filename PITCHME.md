@@ -68,6 +68,8 @@ Philipp Messerschmidt - cs16-1/WS2018
 ---?include=template/md/code-presenting/PITCHME.md
 
 
+---
+
 ### Challenges
 
 @title[Challenges]
