@@ -64,8 +64,6 @@ Philipp Messerschmidt - cs16-1/WS2018
 - network agnostic
 <br><br>
 
----
-
 
 ---?include=template/md/code-presenting/PITCHME.md
 
