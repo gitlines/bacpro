@@ -67,7 +67,6 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ---?include=template/md/code-presenting/PITCHME.md
 
-
 ---
 
 ### Challenges
@@ -78,20 +77,14 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 @fa[arrow-down text-black]
 
++++?code=template/src/c/main-improved.c&lang=c
 @title[Challenges]
 
-+++?code=template/src/c/main-improved.c&lang=c
+@[46-59]
 
 
 
 
-@[1-15]
-
-@[1-15]
-
-
-
-@title[Pointer to Pointers]
 
 
 
