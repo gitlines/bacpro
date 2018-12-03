@@ -59,7 +59,7 @@ Philipp Messerschmidt - cs16-1/WS2018
 ### Sockets
 
 <br><br>
-- aka Berkeley sockets:a Unix API for Internet sockets and Unix domain sockets used for inter-process communication
+- aka Berkeley sockets: a Unix API for Internet sockets and Unix domain sockets used for inter-process communication
 - mechanism used by operating systems to provide network access to programs
 - network agnostic
 <br><br>
@@ -78,8 +78,8 @@ Philipp Messerschmidt - cs16-1/WS2018
 @fa[arrow-down text-black]
 
 +++?code=template/src/c/main-improved.c&lang=c
-@title[Challenges]
 
+@title[Challenges Code]
 
 @[19-26, 33-34](newer functions allow for dynamically enabling IP6 support)
 
