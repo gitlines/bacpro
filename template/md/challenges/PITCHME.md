@@ -8,6 +8,10 @@
 
 @fa[arrow-down text-black]
 
+@snap[north-east template-note text-white]
+Challenges Main
+@snapend
+
 @title[Newer API]
 
 ```C
@@ -19,6 +23,10 @@
         return 1;
     }
 ```
+
+@snap[north-east template-note text-white]
+Newer API
+@snapend
 
 @title[Pointer to Pointers]
 
@@ -42,6 +50,10 @@
         break;
     }
 ```
+
+@snap[north-east template-note text-white]
+Pointer2Pointer
+@snapend
 
 
 
