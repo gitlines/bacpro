@@ -13,7 +13,7 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 @title[Motivation]
 
-#### Motivation
+### Motivation
 
 <br><br>
 - deeper understanding of network communication, related protocols etc.
@@ -25,7 +25,7 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 @title[OSI Model]
 
-## OSI Model
+### OSI Model
 
 <br><br>
 - Application Layer
@@ -41,7 +41,9 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ---
 
-### Transport Layer
+@title[Transport Layer]
+
+#### Transport Layer
 
 <br><br>
 - provides flow control and error handling, and participates in solving problems TCP, UDP
@@ -51,6 +53,8 @@ Philipp Messerschmidt - cs16-1/WS2018
 <br><br>
 
 ---
+
+@title[Sockets]
 
 ### Sockets
 
