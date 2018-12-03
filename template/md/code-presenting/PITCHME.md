@@ -34,7 +34,7 @@
 
 ---
 
-# Challenges
+## Challenges
 
 @title[Challenges]
 
@@ -44,7 +44,7 @@
 
 @fa[arrow-down text-black]
 
-+++?code=template/src/c/main.c&lang=c
+@title[Newer API]
 
 ```C
     // First: load up all the address structs with getaddrinfo()
@@ -55,6 +55,8 @@
         return 1;
     }
 ```
+
+@title[Pointer to Pointers]
 
 ```C
     // looping through results and binding to the very first one 
