@@ -2,71 +2,70 @@
 @title[Introduction]
 
 @snap[west headline text-white span-70]
-GitPitch<br>*The Template*
+HTTP Server in C
 @snapend
 
 @snap[south-west byline  text-white]
-The Fastest Way From Idea To Presentation.
+Philipp Messerschmidt - cs16-1/WS2018
 @snapend
 
 ---
-@title[Slide Markdown]
 
-### Each slide in this presentation is provided as a *template*.
+@title[Motivation]
+
+#### Motivation
 
 <br><br>
-
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
+- deeper understanding of network communication, related protocols etc.
+- learn C by building something
+- go low level to better understand higher languages
 <br><br>
-
 
 ---
-@title[Tip! Fullscreen]
 
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
----?include=template/md/split-screen/PITCHME.md
+@title[Motivation]
 
----?include=template/md/sidebar/PITCHME.md
+#### Motivation
 
----?include=template/md/list-content/PITCHME.md
+<br><br>
+- deeper understanding of network communication, related protocols etc.
+- learn C by building something
+- go low level to better understand higher languages
+<br><br>
 
----?include=template/md/boxed-text/PITCHME.md
 
----?include=template/md/image/PITCHME.md
+### OSI Model
 
----?include=template/md/sidebox/PITCHME.md
+- Application Layer
+- Presentation Layer
+- Session Layer
+- **Transport Layer**
+- Network Layer
+- Data Link
+- Physical Layer
+
+<!-- ![OSI Model](https://github.com/gitlines/bac/blob/master/img/osi.jpg) -->
+
+---
+
+### Transport Layer
+
+- provides flow control and error handling, and participates in solving problems TCP, UDP
+- TCP = Transmission Control Protocol 
+- makes sure data are sent and received in the correct sequence
+- HTTP servers use TCP in order to provide reliable transport
+
+---
+
+### Sockets
+
+- aka Berkeley sockets:a Unix API for Internet sockets and Unix domain sockets used for inter-process communication
+- mechanism used by operating systems to provide network access to programs
+- network agnostic
+
+---
+
 
 ---?include=template/md/code-presenting/PITCHME.md
 
----?include=template/md/header-footer/PITCHME.md
-
----?include=template/md/quotation/PITCHME.md
-
----?include=template/md/announcement/PITCHME.md
-
----?include=template/md/about/PITCHME.md
-
----?include=template/md/wrap-up/PITCHME.md
-
----
-@title[The Template Docs]
-
-@snap[west span-100]
-### **Now it's @color[#E49436](your) turn.**
-
-<br>
-
-#### Use these templates to create custom slides.
-#### **Then amaze your audience with a Git@color[#E49436](Pitch) slideshow @fa[smile-o]**
-@snapend
-
-@snap[south docslink span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend

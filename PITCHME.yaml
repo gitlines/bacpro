@@ -25,14 +25,14 @@ theme-override : template/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : template/img/logo.png
-logo-position : top-left
+#logo : template/img/logo.png
+#logo-position : top-left
 
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "HTTP Server in C - Philipp Messerschmidt - 3.12.2018"
 
 #
 # Highlight (Code) Setting
@@ -58,6 +58,7 @@ transition : none
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
+
 title : "GitPitch - The Quickstart Template"
 description : "High-utility markdown slide templates for GitPitch presentation authors."
 thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
