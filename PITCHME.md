@@ -23,20 +23,11 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ---
 
+@title[OSI Model]
 
-@title[Motivation]
-
-#### Motivation
+## OSI Model
 
 <br><br>
-- deeper understanding of network communication, related protocols etc.
-- learn C by building something
-- go low level to better understand higher languages
-<br><br>
-
-
-### OSI Model
-
 - Application Layer
 - Presentation Layer
 - Session Layer
@@ -44,6 +35,7 @@ Philipp Messerschmidt - cs16-1/WS2018
 - Network Layer
 - Data Link
 - Physical Layer
+<br><br>
 
 <!-- ![OSI Model](https://github.com/gitlines/bac/blob/master/img/osi.jpg) -->
 
@@ -51,18 +43,22 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ### Transport Layer
 
+<br><br>
 - provides flow control and error handling, and participates in solving problems TCP, UDP
 - TCP = Transmission Control Protocol 
 - makes sure data are sent and received in the correct sequence
 - HTTP servers use TCP in order to provide reliable transport
+<br><br>
 
 ---
 
 ### Sockets
 
+<br><br>
 - aka Berkeley sockets:a Unix API for Internet sockets and Unix domain sockets used for inter-process communication
 - mechanism used by operating systems to provide network access to programs
 - network agnostic
+<br><br>
 
 ---
 

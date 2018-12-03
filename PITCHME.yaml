@@ -59,6 +59,6 @@ transition : none
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
 
-title : "GitPitch - The Quickstart Template"
-description : "High-utility markdown slide templates for GitPitch presentation authors."
-thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
+title : "HTTP Server in C"
+# description : "High-utility markdown slide templates for GitPitch presentation authors."
+# thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
