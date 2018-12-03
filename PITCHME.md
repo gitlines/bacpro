@@ -72,32 +72,18 @@ Philipp Messerschmidt - cs16-1/WS2018
 
 ### Challenges
 
-@title[Challenges]
-
 - starting from basically zero ... tooling, and external libraries 
 - OCD: declaring pointers; asterisk on the left or right?
 - double pointers? WTF
 
----
-
-### Challenges
+@fa[arrow-down text-black]
 
 +++?code=template/src/c/main.c&lang=c
-@title[Challenges File]
+
+@title[Challenges]
 
 
 @[1-15]
-
-@title[Newer API]
-
-----
-
-### Challenges
-
-
-+++?code=template/src/c/main.c&lang=c
-@title[Challenges File]
-
 
 @[1-15]
 
