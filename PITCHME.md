@@ -136,11 +136,15 @@
     return 0;
 ```
 
+---
+
 ### Challenges
 
 - starting from basically zero ... tooling, and external libraries 
 - OCD: declaring pointers; asterisk on the left or right?
 - double pointers? WTF
+
+---
 
 ### Challenges
 
@@ -154,10 +158,12 @@
     }
 ```
 
+---
+
 ### Challenges
 
 ```C
-    // looping through results and binding to the very first one
+    // looping through results and binding to the very first one 
     for(p = servinfo; p != NULL; p = p->ai_next) {
         if ((sock_fd = socket(p->ai_family, p->ai_socktype,
                              p->ai_protocol)) == -1) {
