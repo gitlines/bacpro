@@ -19,13 +19,13 @@ theme : simple
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override : bacpro/css/PITCHME.css
+theme-override : template/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : bacpro/img/logo.png
+logo : template/img/logo.png
 logo-position : top-left
 
 #
